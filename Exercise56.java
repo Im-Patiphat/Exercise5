@@ -14,14 +14,14 @@ public class Exercise56 {
         switch (selection) {
             case 1:
                 System.out.println("You general customer");
-                System.out.println("you will pay " + (100 + (water * 0.5)));
+                System.out.println("you pay " + (100 + (water * 0.5)));
                 break;
             case 2:
                 System.out.println("You commercial customers");
-                System.out.println("you will pay " + (100 + (water * 0.9)));
+                System.out.println("you pay " + (100 + (water * 0.9)));
                 break;
         }
-        input.close();
+        
 
     }
 }   

@@ -19,9 +19,8 @@ public class Exercise59 {
             }
         } while (BY >= LocalDate.now().getYear() + 543);
         int age = (LocalDate.now().getYear()) - BY;
-        System.out.println(name + " your are " + age + " years old");
         int gender;
-        System.out.println("Select product type:");
+        System.out.println("choose your gender: ");
         System.out.println("1. Male");
         System.out.println("2. Female");
 
